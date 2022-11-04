@@ -16,7 +16,7 @@
     body{
         margin:auto;
         color: black;
-        background-color: aqua;
+        background-color: whitesmoke;
         font-family: Arial, Helvetica, sans-serif;
         padding: 10 30px;
         width: 50%;
@@ -28,23 +28,52 @@
         line-height: 2em;
         padding: 0%;
     }
-    button{
+    .button{
         border: 5px black;
         margin: auto;
-        padding: 20px;
-        color: grey;
+        padding: 8px;
+        color: black;
         text-decoration: dotted;
         text-align: center;
+        width: 60%;
+
     }
-    head{
-        border: 5px black;
+    .box-1{
+border: 5px black solid;
+border-width: 1px ;
+border: bottom width 10px;
+border-top-style:dotted;
+padding: 20px;
+background-color: plum;
     }
+    .button a{
+        padding: 20px;
+        background-color: whitesmoke;
+        color: black;
+        text-decoration: none;
+    }
+    .button :hover{
+        color: red;
+    }
+    .box-1 h2{
+        padding: 20px;
+        font-weight:bold;
+
+    }
+    .top{
+        padding: 20px;
+        font-weight: bold;
+    }
+    .box-1 p{
+        padding: auto;
+    }
+
     </style>
 </head>
-<body>
+<body class="box-1">
     <div><p>
         <p>
-           <b>Free</b><br> For individuals or very small team just getting started with Airtable
+           <b class="top">Free</b><br> For individuals or very small team just getting started with Airtable
         </p>
     </div>
 
@@ -54,10 +83,10 @@
 </h2>
     </div>
     
-    <button>Sign up</button>
-    <div>
+    <button class="button">Sign up</button>
+    <div class="list">
         <p><strong>Free includes:</strong></p>
-        <ul>
+        <ul class="list">
             <li>Up to 5 creators or editors</li>
             <li>Unlimited commenter and read-only users</li>
             <li>Interface Designer</li>
@@ -69,18 +98,8 @@
         </ul>
         </div>
 
-<p>
-        <div class="label">
-            <label>ALL FEATURES</label>
-            <select name="ALL FEATURES">
-                <option value="Edit">Edit</option>
-                <option value="Comments">Comments</option>
-                <option value="Attachments">Attachments</option>
-                <option value="Editing">Editing</option>
-            </select>
-        </p>
-        </div>
-    </div>
+    <p>ALL FEATURES</p><button>view more</button>
+
     
 </body>
 </html>
